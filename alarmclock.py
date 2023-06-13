@@ -1,5 +1,5 @@
 from datetime import datetime
-# from playsound import playsound
+from playsound import playsound
 
 
 def time_validation(alrm):
@@ -50,5 +50,5 @@ while True:
 
     if alarm_hour == current_hour_new and alarm_minute == current_minute and alarm_second == current_second and alarm_period == current_period:
         print("WAKE UPPPP!!!")
-        # playsound('amazing_wake_up_sound.mp3')
+        playsound('amazing_wake_up_sound.mp3')
         break
